@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fruits</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="swiper.min.css">
+    <link rel="stylesheet" href="swiper.css">
+    <meta charset="utf-8">
+    <link rel="shorcut icon" type="image/x-icon" href="img/titleicon.jpg">
+    <script src="fontawesome.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#"><img src="img/logo1.jpg" alt=""></a>
+        </div>
+
+        <div class="navagation">
+            <ul id="mylist">
+                <li class="drop-navagation block1">
+                    <a class="green" href="#">HOME<i class="fa fa-angle-down"></i></a>
+                    <ul class="down">
+                            <li><a href="#">Home Version1</a></li>
+                            <li><a href="#">Home Version2</a></li>
+                            <li><a href="#">Home Version3</a></li>
+                            <li><a href="#">Home Version4</a></li>   
+                    </ul>
+                    <a id="plus1" href="#" onclick="myFunction1()" style="font-size:18px;color:#666666;width:26px;height:15px">+</a>
+                </li>
+                <li class="block1 block2"><a href="#">Home Version1</a></li>
+                <li class="block1 block2"><a href="#">Home Version2</a></li>
+                <li class="block1 block2"><a href="#">Home Version3</a></li>
+                <li class="block1 block2"><a href="#">Home Version4</a></li>
+                <li class="block1"><a href="#">ABOUT US</a></li>
+                <li class="block1"><a href="#">SHOP</a></li>
+                <li class="block1"><a href="#">BLOG</a></li>
+                <li class="block1"><a href="#">PAGES<i class="fa fa-angle-down"></i></a></li>
+                <li class="block1"><a href="#">VEGETABLE</a></li>
+            </ul>
+            
+        </div>
+        
+        <div class="input-value">
+            <form action="#">
+                <input type="text" placeholder="Search our catelogi">
+                <button><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+
+        <div class="cart-gear">
+            <span class="cart"><a href="#"><i class="fa fa-shopping-cart"></i></a>&nbsp;&nbsp;&nbsp;$99.00
+                <div class="order">
+                    <div class="sp">
+                    <div class="sp1">
+                        <a href="#"><img src="img/cart-1.jpg" alt=""></a>
+                        <div class="hello">
+                                <p class="p1">Mushroom Burger</p>
+                                <p class="p2">$84.12</p>
+                        </div>
+                        <a href="#"><i class="fa fa-trash-o"></i></a>
+                    </div>
+                    <div class="sp1">
+                            <a href="#"><img src="img/cart-2.jpg" alt=""></a>
+                            <div class="hello">
+                                <p class="p1">Sunshine Snacks</p>
+                                <p class="p2">$54.00</p>
+                            </div>
+                            <a href="#"><i class="fa fa-trash-o"></i></a>
+                    </div>
+                    </div>
+                    <div class="price-order">
+                        <span class="order-product">Products</span>
+                        <span class="order-price">Price</span>
+                    </div>
+                    <div class="price-order price-order1">
+                        <span>Mushroom Burger</span>
+                        <span>$84.12</span>
+                    </div>
+                    <div class="price-order price-order1">
+                            <span>Sunshine Snacks</span>
+                            <span>$54.00</span>
+                    </div>
+                    <div class="price-order price-order2">
+                            <span>Total</span>
+                            <span>$138.12</span>
+                    </div>
+                    <div class="checkout">
+                        <a href="#">CHECKOUT</a>
+                    </div>
+                </div>
+            </span>
+            <span class="badge">3</span>
+            <span class="gear">
+                <i class="fa fa-gear" id="mylist1" onclick="myFunction2()"></i>
+                <div class="language" id="language1">
+                    <a href="#">
+                        <img src="img/en.jpg" alt="">
+                        <span class="en">English</span>
+                        <span class="en en2">EUR $</span>
+                    </a>
+                    <a href="#">
+                        <img src="img/frances2.jpg" alt="">
+                        <span class="en">Francais</span>
+                        <span class="en en1">EUR $</span>
+                    </a>
+                    <a href="#"><p>My Account</p></a>
+                    <a href="#"><p>Check out</p></a>
+                    <a href="#"><p>Sign In</p></a>
+                </div>
+            </span>
+        </div>
+        <div class="burfer"  onclick="myFunction()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+    <!-- header nav  -->
+    <div class="swiper-container">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img class="hinh1" src="img/1.jpg" alt="">
+                <div class="content-slide">
+                    <p>Exclusive Offer -10% Off This Week</p>
+                    <h2>Live <strong>healthy</strong> with a glass</h2>
+                    <h3>of <strong>fruit juice</strong> every day</h3>
+                    <h6>Starting at<span>$42.99</span></h6>
+                    <div class="content-btn">
+                        <a href="#">SHOPPING NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide"><img src="img/2.jpg" alt="">
+                <div class="content-slide">
+                        <p>Exclusive Offer -10% Off This Week</p>
+                        <h2>Crave <strong>appeal</strong> to customer</h2>
+                        <h3>a <strong>machoe</strong> ideas</h3>
+                        <h6>Starting at<span>$42.99</span></h6>
+                        <div class="content-btn">
+                            <a href="#">SHOPPING NOW</a>
+                        </div>
+                    </div></div>
+            <div class="swiper-slide"><img src="img/3.jpg" alt="">
+                <div class="content-slide">
+                        <p>Exclusive Offer -10% Off This Week</p>
+                        <h2>Great <strong>catering</strong> exrtemely brandeble</h2>
+                        <h3>some <strong>name could</strong> be</h3>
+                        <h6>Starting at<span>$42.99</span></h6>
+                        <div class="content-btn">
+                            <a href="#">SHOPPING NOW</a>
+                        </div>
+                    </div></div>
+            <div class="swiper-slide"><img src="img/4.jpg" alt="">
+                <div class="content-slide">
+                        <p>Exclusive Offer -10% Off This Week</p>
+                        <h2>Useful <strong>healthy</strong> plate palate</h2>
+                        <h3>clever <strong>yum yim</strong> eat more</h3>
+                        <h6>Starting at<span>$42.99</span></h6>
+                        <div class="content-btn">
+                            <a href="#">SHOPPING NOW</a>
+                        </div>
+                    </div></div>
+            </div>
+            
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+    </div> 
+    <!-- slide  -->
+    <div class="banner">
+        <div class="banner1"><img src="img/banner1.jpg"></div>
+        <div class="banner1"><img src="img/banner2.jpg"></div>
+        <div class="banner1"><img src="img/banner3.jpg"></div>
+    </div> 
+    <!-- banner  -->
+    <div class="title-product">
+        <p>Featured Products</p>
+    </div>
+    <!-- title product  -->
+    <div class="swiper-container1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/slide-product1.jpg">
+              <span class="new">New</span>
+              <a href="#" class="title-products">Cheese Butter Burger</a>
+              <span class="title-price">$26.22</span>
+              <div class="icon-product">
+                <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                <a href="#"><i class='fas fa-expand'></i></a>
+                <a href="#"><i class='fab fa-gg'></i></a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/slide-product2.jpg">
+                <span class="new">HOT</span>
+                <a href="#" class="title-products">Sprite Yoga Strapsl</a>
+                <span class="title-price">$7.99</span>
+                <div class="icon-product">
+                    <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                    <a href="#"><i class='fas fa-expand'></i></a>
+                    <a href="#"><i class='fab fa-gg'></i></a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/slide-product3.jpg">
+                <span class="new">New</span>
+                <span class="ratio">-5%</span>
+                <a href="#" class="title-products">Waygarer Messenger Bag</a>
+                <span class="title-price">$34.17</span>
+                <div class="icon-product">
+                    <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                    <a href="#"><i class='fas fa-expand'></i></a>
+                    <a href="#"><i class='fab fa-gg'></i></a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/slide-product4.jpg">
+                <span class="new">New</span>
+                <a href="#" class="title-products">Impulse Duffle</a>
+                <span class="title-price">$3.79</span>
+                <div class="icon-product">
+                    <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                    <a href="#"><i class='fas fa-expand'></i></a>
+                    <a href="#"><i class='fab fa-gg'></i></a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/slide-product5.jpg">
+                <span class="new">New</span>
+                <span class="ratio">-13%</span>
+                <a href="#" class="title-products">Funsce Nec Facilisi</a>
+                <span class="title-price">$6.59</span>
+                <div class="icon-product">
+                    <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                    <a href="#"><i class='fas fa-expand'></i></a>
+                    <a href="#"><i class='fab fa-gg'></i></a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/slide-product6.jpg">
+                <span class="new">New</span>
+                <a href="#" class="title-products">Chaz Kangeroo Hoodie3</a>
+                <span class="title-price">$12.99</span>
+                <div class="icon-product">
+                    <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                    <a href="#"><i class='fas fa-expand'></i></a>
+                    <a href="#"><i class='fab fa-gg'></i></a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/slide-product7.jpg">
+                <span class="new">New</span>
+                <span class="ratio">-77%</span>
+                <a href="#" class="title-products">Donec Sem Tellus</a>
+                <span class="title-price">$30</span>
+                <div class="icon-product">
+                    <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                    <a href="#"><i class='fas fa-expand'></i></a>
+                    <a href="#"><i class='fab fa-gg'></i></a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/slide-product8.jpg">
+                <span class="new">New</span>
+                <a href="#" class="title-products">Healthy Melth</a>
+                <span class="title-price">$0.99</span>
+                <div class="icon-product">
+                    <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                    <a href="#"><i class='fas fa-expand'></i></a>
+                    <a href="#"><i class='fab fa-gg'></i></a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/slide-product9.jpg">
+                <span class="new">New</span>
+                <span class="ratio">-31%</span>
+                <a href="#" class="title-products">Mushroom Burger</a>
+                <span class="title-price">$4.99</span>
+                <div class="icon-product">
+                    <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                    <a href="#"><i class='fas fa-expand'></i></a>
+                    <a href="#"><i class='fab fa-gg'></i></a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/slide-product10.jpg">
+                <span class="new">New</span>
+                <a href="#" class="title-products">Bursting Baskets</a>
+                <span class="title-price">$26.22</span>
+                <div class="icon-product">
+                    <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                    <a href="#"><i class='fas fa-expand'></i></a>
+                    <a href="#"><i class='fab fa-gg'></i></a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/slide-product11.jpg">
+                <span class="new">New</span>
+                <a href="#" class="title-products">Seedless Sweetness</a>
+                <span class="title-price">$26.22</span>
+                <div class="icon-product">
+                    <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                    <a href="#"><i class='fas fa-expand'></i></a>
+                    <a href="#"><i class='fab fa-gg'></i></a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/slide-product12.jpg">
+                <span class="new">New</span>
+                <a href="#" class="title-products">Tart And Fruity</a>
+                <span class="title-price">$26.22</span>
+                <div class="icon-product">
+                    <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                    <a href="#"><i class='fas fa-expand'></i></a>
+                    <a href="#"><i class='fab fa-gg'></i></a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/slide-product13.jpg">
+                <span class="new">New</span>
+                <a href="#" class="title-products">Picky Pickers</a>
+                <span class="title-price">$26.22</span>
+                <div class="icon-product">
+                    <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                    <a href="#"><i class='fas fa-expand'></i></a>
+                    <a href="#"><i class='fab fa-gg'></i></a>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    <!-- product  -->
+    <div class="ship">
+        <div class="shipper">
+            <img src="img/ship1.png" alt="">
+            <div class="text-ship">
+                <h6>Free Shipping Over $120</h6>
+                <p>Free shipping on all order</p>
+            </div>
+        </div>
+        <div class="shipper">
+            <img src="img/ship2.png" alt="">
+            <div class="text-ship">
+                <h6>Money Return</h6>
+                <p>Back guarantee under 7 days</p>
+            </div>
+        </div>
+        <div class="shipper">
+            <img src="img/ship3.png" alt="">
+            <div class="text-ship">
+                <h6>Member Discount</h6>
+                <p>Support online 24 hours a day</p>
+            </div>
+        </div>
+        <div class="shipper">
+            <img src="img/ship4.png" alt="">
+            <div class="text-ship">
+                <h6>Online Support 24/7</h6>
+                <p>Free shipping on all order</p>
+            </div>
+        </div>
+    </div>
+    <!-- Shop  -->
+    <div class="title-product shop">
+        <p>Shop
+            <div class="title-right">
+                <a  href="#">Fresh Fruit</a>
+                <a href="#">Flower</a>
+                <a class="title-right1" href="#">Organics</a>
+             </div>
+        </p>
+    </div>
+    
+    <div class="shop-product">
+        <div class="shop-banner">
+            <img src="img/slide-product11.jpg">
+            <div class="text-ship">
+                <a href="#" class="title-products">Donec Sem Tulls</a>
+                <span class="title-price">$16.22</span>
+                <a href="#" class="title-button">ADD TO CART</a>
+            </div>
+        </div>
+        <div class="swiper-container2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="img/slide-product1.jpg">
+                      <span class="new">New</span>
+                      <a href="#" class="title-products">Cheese Butter Burger</a>
+                      <span class="title-price">$26.22</span>
+                      <div class="icon-product">
+                        <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                        <a href="#"><i class='fas fa-expand'></i></a>
+                        <a href="#"><i class='fab fa-gg'></i></a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slide-product2.jpg">
+                        <span class="new">HOT</span>
+                        <a href="#" class="title-products">Sprite Yoga Strapsl</a>
+                        <span class="title-price">$7.99</span>
+                        <div class="icon-product">
+                            <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                            <a href="#"><i class='fas fa-expand'></i></a>
+                            <a href="#"><i class='fab fa-gg'></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slide-product3.jpg">
+                        <span class="new">New</span>
+                        <span class="ratio">-5%</span>
+                        <a href="#" class="title-products">Waygarer Messenger Bag</a>
+                        <span class="title-price">$34.17</span>
+                        <div class="icon-product">
+                            <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                            <a href="#"><i class='fas fa-expand'></i></a>
+                            <a href="#"><i class='fab fa-gg'></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slide-product4.jpg">
+                        <span class="new">New</span>
+                        <a href="#" class="title-products">Impulse Duffle</a>
+                        <span class="title-price">$3.79</span>
+                        <div class="icon-product">
+                            <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                            <a href="#"><i class='fas fa-expand'></i></a>
+                            <a href="#"><i class='fab fa-gg'></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slide-product5.jpg">
+                        <span class="new">New</span>
+                        <span class="ratio">-13%</span>
+                        <a href="#" class="title-products">Funsce Nec Facilisi</a>
+                        <span class="title-price">$6.59</span>
+                        <div class="icon-product">
+                            <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                            <a href="#"><i class='fas fa-expand'></i></a>
+                            <a href="#"><i class='fab fa-gg'></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slide-product6.jpg">
+                        <span class="new">New</span>
+                        <a href="#" class="title-products">Chaz Kangeroo Hoodie3</a>
+                        <span class="title-price">$12.99</span>
+                        <div class="icon-product">
+                            <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                            <a href="#"><i class='fas fa-expand'></i></a>
+                            <a href="#"><i class='fab fa-gg'></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slide-product7.jpg">
+                        <span class="new">New</span>
+                        <span class="ratio">-77%</span>
+                        <a href="#" class="title-products">Donec Sem Tellus</a>
+                        <span class="title-price">$30</span>
+                        <div class="icon-product">
+                            <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                            <a href="#"><i class='fas fa-expand'></i></a>
+                            <a href="#"><i class='fab fa-gg'></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slide-product8.jpg">
+                        <span class="new">New</span>
+                        <a href="#" class="title-products">Healthy Melth</a>
+                        <span class="title-price">$0.99</span>
+                        <div class="icon-product">
+                            <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                            <a href="#"><i class='fas fa-expand'></i></a>
+                            <a href="#"><i class='fab fa-gg'></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slide-product9.jpg">
+                        <span class="new">New</span>
+                        <span class="ratio">-31%</span>
+                        <a href="#" class="title-products">Mushroom Burger</a>
+                        <span class="title-price">$4.99</span>
+                        <div class="icon-product">
+                            <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                            <a href="#"><i class='fas fa-expand'></i></a>
+                            <a href="#"><i class='fab fa-gg'></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                            <img src="img/slide-product10.jpg">
+                            <span class="new">New</span>
+                            <span class="ratio">-31%</span>
+                            <a href="#" class="title-products">Fileed With Fruit</a>
+                            <span class="title-price">$4.99</span>
+                            <div class="icon-product">
+                                <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                                <a href="#"><i class='fas fa-expand'></i></a>
+                                <a href="#"><i class='fab fa-gg'></i></a>
+                            </div>
+                    </div>
+                    <div class="swiper-slide">
+                            <img src="img/slide-product11.jpg">
+                            <span class="new">New</span>
+                            <span class="ratio">-31%</span>
+                            <a href="#" class="title-products">Sweet As Pie</a>
+                            <span class="title-price">$4.99</span>
+                            <div class="icon-product">
+                                <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                                <a href="#"><i class='fas fa-expand'></i></a>
+                                <a href="#"><i class='fab fa-gg'></i></a>
+                            </div>
+                    </div>
+                    <div class="swiper-slide">
+                            <img src="img/slide-product12.jpg">
+                            <span class="new">New</span>
+                            <span class="ratio">-31%</span>
+                            <a href="#" class="title-products">Fulfilling Fruits</a>
+                            <span class="title-price">$4.99</span>
+                            <div class="icon-product">
+                                <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                                <a href="#"><i class='fas fa-expand'></i></a>
+                                <a href="#"><i class='fab fa-gg'></i></a>
+                            </div>
+                    </div>
+                    <div class="swiper-slide">
+                            <img src="img/slide-product13.jpg">
+                            <span class="new">New</span>
+                            <span class="ratio">-31%</span>
+                            <a href="#" class="title-products">Feisty Fruits</a>
+                            <span class="title-price">$4.99</span>
+                            <div class="icon-product">
+                                <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                                <a href="#"><i class='fas fa-expand'></i></a>
+                                <a href="#"><i class='fab fa-gg'></i></a>
+                            </div>
+                    </div>
+                    <div class="swiper-slide">
+                            <img src="img/slide-product5.jpg">
+                            <span class="new">New</span>
+                            <span class="ratio">-31%</span>
+                            <a href="#" class="title-products">Picked Fresh</a>
+                            <span class="title-price">$4.99</span>
+                            <div class="icon-product">
+                                <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                                <a href="#"><i class='fas fa-expand'></i></a>
+                                <a href="#"><i class='fab fa-gg'></i></a>
+                            </div>
+                    </div>
+                
+                </div>
+            </div>
+    </div>
+    <!-- banner2  -->
+    <div class="banner2">
+        <div class="banner2-1"><img src="img/big-1.jpg" alt=""></div>
+        <div class="banner2-1"><img src="img/big-2.jpg" alt=""></div>
+    </div>
+    <!-- product-1  -->
+
+    <div class="title-product shop product-1">
+        <p>Recommended Products</p>
+    </div> 
+    <div class="swiper-container1">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="img/slide-product6.jpg">
+                  <a href="#" class="title-products">Cheese Butter Burger</a>
+                  <span class="title-price">$26.22</span>
+                  <div class="icon-product">
+                    <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                    <a href="#"><i class='fas fa-expand'></i></a>
+                    <a href="#"><i class='fab fa-gg'></i></a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/slide-product2.jpg">
+                    <a href="#" class="title-products">Sprite Yoga Strapsl</a>
+                    <span class="title-price">$7.99</span>
+                    <div class="icon-product">
+                        <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                        <a href="#"><i class='fas fa-expand'></i></a>
+                        <a href="#"><i class='fab fa-gg'></i></a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/slide-product3.jpg">
+                    <a href="#" class="title-products">Waygarer Messenger Bag</a>
+                    <span class="title-price">$34.17</span>
+                    <div class="icon-product">
+                        <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                        <a href="#"><i class='fas fa-expand'></i></a>
+                        <a href="#"><i class='fab fa-gg'></i></a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/slide-product4.jpg">
+                    <a href="#" class="title-products">Impulse Duffle</a>
+                    <span class="title-price">$3.79</span>
+                    <div class="icon-product">
+                        <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                        <a href="#"><i class='fas fa-expand'></i></a>
+                        <a href="#"><i class='fab fa-gg'></i></a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/slide-product5.jpg">
+                    <a href="#" class="title-products">Funsce Nec Facilisi</a>
+                    <span class="title-price">$6.59</span>
+                    <div class="icon-product">
+                        <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                        <a href="#"><i class='fas fa-expand'></i></a>
+                        <a href="#"><i class='fab fa-gg'></i></a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/slide-product6.jpg">
+                    <a href="#" class="title-products">Chaz Kangeroo Hoodie3</a>
+                    <span class="title-price">$12.99</span>
+                    <div class="icon-product">
+                        <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                        <a href="#"><i class='fas fa-expand'></i></a>
+                        <a href="#"><i class='fab fa-gg'></i></a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/slide-product7.jpg">
+                    <a href="#" class="title-products">Donec Sem Tellus</a>
+                    <span class="title-price">$30</span>
+                    <div class="icon-product">
+                        <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                        <a href="#"><i class='fas fa-expand'></i></a>
+                        <a href="#"><i class='fab fa-gg'></i></a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/slide-product8.jpg">
+                    <a href="#" class="title-products">Healthy Melth</a>
+                    <span class="title-price">$0.99</span>
+                    <div class="icon-product">
+                        <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                        <a href="#"><i class='fas fa-expand'></i></a>
+                        <a href="#"><i class='fab fa-gg'></i></a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/slide-product9.jpg">
+                    <a href="#" class="title-products">Mushroom Burger</a>
+                    <span class="title-price">$4.99</span>
+                    <div class="icon-product">
+                        <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                        <a href="#"><i class='fas fa-expand'></i></a>
+                        <a href="#"><i class='fab fa-gg'></i></a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/slide-product10.jpg">
+                    <a href="#" class="title-products">Bursting Baskets</a>
+                    <span class="title-price">$26.22</span>
+                    <div class="icon-product">
+                        <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                        <a href="#"><i class='fas fa-expand'></i></a>
+                        <a href="#"><i class='fab fa-gg'></i></a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/slide-product11.jpg">
+                    <a href="#" class="title-products">Seedless Sweetness</a>
+                    <span class="title-price">$26.22</span>
+                    <div class="icon-product">
+                        <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                        <a href="#"><i class='fas fa-expand'></i></a>
+                        <a href="#"><i class='fab fa-gg'></i></a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/slide-product12.jpg">
+                    <a href="#" class="title-products">Tart And Fruity</a>
+                    <span class="title-price">$26.22</span>
+                    <div class="icon-product">
+                        <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                        <a href="#"><i class='fas fa-expand'></i></a>
+                        <a href="#"><i class='fab fa-gg'></i></a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/slide-product13.jpg">
+                    <a href="#" class="title-products">Picky Pickers</a>
+                    <span class="title-price">$26.22</span>
+                    <div class="icon-product">
+                        <a href="#"><i class="fa fa-shopping-cart cart-product"></i></a>
+                        <a href="#"><i class='fas fa-expand'></i></a>
+                        <a href="#"><i class='fab fa-gg'></i></a>
+                    </div>
+                </div>      
+            </div>
+        </div>
+        <div class="banner3">
+            <div class="banner3-1"><img src="img/banner-4.jpg" alt=""></div>
+            <div class="banner3-1 banner3-2"><img src="img/banner-5.jpg" alt=""></div>
+            <div class="banner3-1"><img src="img/banner-6.jpg" alt=""></div>
+        </div>
+        <!-- scroll top  -->
+        <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> -->
+        <div class="title-product title-product-end">
+            <p>Bestseller Products</p>
+        </div>
+        <div class="swiper-container3">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="img/slide-product6.jpg">
+                      <a href="#" class="title-products">Cheese Butter Burger</a>
+                      <span class="title-price">$15.20</span>
+                      <span class="title-price strike"><strike>$26.22</strike></span>
+                      <div class="start-vote">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slide-product2.jpg">
+                        <a href="#" class="title-products">Sprite Yoga Strapsl</a>
+                        <span class="title-price">$7.99</span>
+                        <div class="start-vote">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slide-product3.jpg">
+                        <a href="#" class="title-products">Waygarer Bag</a>
+                        <span class="title-price">$34.17</span>
+                        <span class="title-price strike"><strike>$46.99</strike></span>
+                        <div class="start-vote">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                          </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slide-product4.jpg">
+                        <a href="#" class="title-products">Impulse Duffle</a>
+                        <span class="title-price">$3.79</span>
+                        <span class="title-price strike"><strike>$14.74</strike></span>
+                        <div class="start-vote">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star "></span>
+                            <span class="fa fa-star "></span>
+                            <span class="fa fa-star"></span>
+                          </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slide-product5.jpg">
+                        <a href="#" class="title-products">Funsce Nec Facilisi</a>
+                        <span class="title-price">$6.59</span>
+                        <div class="start-vote">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                          </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slide-product6.jpg">
+                        <a href="#" class="title-products">Chaz Kangeroo Hoodie3</a>
+                        <span class="title-price">$12.99</span>
+                        <span class="title-price strike"><strike>$87.2</strike></span>
+                        <div class="start-vote">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                          </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slide-product7.jpg">
+                        <a href="#" class="title-products">Donec Sem Tellus</a>
+                        <span class="title-price">$30</span>
+                        <div class="start-vote">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                          </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slide-product8.jpg">
+                        <a href="#" class="title-products">Healthy Melth</a>
+                        <span class="title-price">$0.99</span>
+                        <span class="title-price strike"><strike>$6.00</strike></span>
+                        <div class="start-vote">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                          </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slide-product9.jpg">
+                        <a href="#" class="title-products">Mushroom Burger</a>
+                        <span class="title-price">$4.99</span>
+                        <div class="start-vote">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                          </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slide-product10.jpg">
+                        <a href="#" class="title-products">Bursting Baskets</a>
+                        <span class="title-price">$26.22</span>
+                        <span class="title-price strike"><strike>$35.00</strike></span>
+                        <div class="start-vote">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                          </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slide-product11.jpg">
+                        <a href="#" class="title-products">Seedless Sweetness</a>
+                        <span class="title-price">$8.99</span>
+                        <div class="start-vote">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                          </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slide-product12.jpg">
+                        <a href="#" class="title-products">Tart And Fruity</a>
+                        <span class="title-price">$9.99</span>
+                        <div class="start-vote">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                          </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slide-product13.jpg">
+                        <a href="#" class="title-products">Picky Pickers</a>
+                        <span class="title-price">$2.33</span>
+                        <div class="start-vote">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star "></span>
+                            <span class="fa fa-star"></span>
+                          </div>
+                    </div>
+                
+                </div>
+        </div>
+        <div class="swiper-container4">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide banner4"><img class="hinh1" src="img/banner4-1.png" alt=""></div>
+            <div class="swiper-slide banner4"><img src="img/banner4-2.png" alt=""></div>
+            <div class="swiper-slide banner4"><img src="img/banner4-3.png" alt=""></div>
+            <div class="swiper-slide banner4"><img src="img/banner4-4.png" alt=""></div>
+            <div class="swiper-slide banner4"><img src="img/banner4-5.png" alt=""></div>
+            </div>
+            
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+    </div>
+    <footer>
+        <div class="footer1">
+            <a href="#"><img src="img/banner4-4.png" alt=""></a>
+            <p>Address: 123 VO VAN KIET, DA NANG.</p>
+            <p>Phone: (+84)905765653</p>
+            <p>Email: lequangdongg@gmail.com</p>
+            <p class="touch">Get in Touch:</p>
+            <li>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </li>
+        </div>
+        <div class="footer-total">
+            <div class="footer2">
+                <p>Products</p>
+                <ul class="down">
+                    <li><a href="#">Prices Drop</a></li>
+                    <li><a href="#">New Products</a></li>
+                    <li><a href="#">Best Sales</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">My Account</a></li>   
+            </ul>
+            </div>
+            <div class="footer3">
+                <p>Login</p>
+                <ul class="down">
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Stores</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">My Account</a></li>   
+            </ul>
+            </div>
+            <div class="footer4">
+                <p>Your Account</p>
+                <ul class="down">
+                    <li><a href="#">Personal Info</a></li>
+                    <li><a href="#">Orders</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Credit Slips</a></li>
+                    <li><a href="#">Addresses</a></li>   
+            </ul>
+            </div>
+        </div>
+        <div class="footer5">
+            <p>Join Our Newsletter Now</p>
+            <p class="email-1">Get E-mail updates about our latest shop and special offers</p>
+            <form action="#">
+                <input type="text" name="" id="" placeholder="Your Email Address">
+                <button>SUBSCRIBE</button>
+            </form>
+        </div>
+    </footer>
+</body>
+<script src="swiper.esm.bundle.js"></script>
+<script src="swiper.min.js"></script>
+<script src="main.js"></script>
+</html>
